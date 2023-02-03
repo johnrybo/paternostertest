@@ -272,6 +272,9 @@ body {
 .module-4 .btn {
   margin-top: 3rem;
 }
+html:not(.w-editor, .wf-design-mode) .transition-overlay {
+  display: flex;
+}
 .header {
   --bgColor: var(--almostWhite);
   --txtColor: var(--almostBlack);
